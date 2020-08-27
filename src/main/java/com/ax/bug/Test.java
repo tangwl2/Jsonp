@@ -5,7 +5,12 @@ package com.ax.bug;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.Map.Entry;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
@@ -29,6 +34,23 @@ public class Test {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+//		  HashMap<String, Integer> hm = new HashMap<String, Integer>();
+//        //放入元素
+//        hm.put("Harry",23);
+//        hm.put("Jenny",24);
+//        hm.put("XiaoLi",20);
+//
+//        System.out.println(hm);//{XiaoLi=20, Harry=23, Jenny=24}
+//        System.out.println(hm.keySet());//[XiaoLi, Harry, Jenny]
+//        System.out.println(hm.values());//[20, 23, 24]
+//
+//        Set<Map.Entry<String, Integer>> entries = hm.entrySet();
+//        Iterator<Map.Entry<String, Integer>> iterator = entries.iterator();
+//        while (iterator.hasNext()) {
+//			Entry<String, Integer> entry = iterator.next();
+//			System.err.println(entry.getKey());
+//			System.err.println(entry.getValue());
+//        }
 	}
 
     /**
